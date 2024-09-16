@@ -47,7 +47,7 @@ public class Main
       System.out.println("Enter a boolean: "); 
       boolean boolean1 = input.nextBoolean(); 
       
-      // This is the actual mad lib portion of the code 
+      // The mad lib portion where the user input is used 
       
       System.out.println("Thank you, ladies and " + string1 + ". My heart is beating at " + integer1 + " beats a minute. I didn’t prepare a " + string2 + ".");
       System.out.println("Even though I have received a lot of praise, and my newest movie " + string3 + " had a rating of " + double1 + " stars,");
