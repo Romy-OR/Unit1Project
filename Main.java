@@ -3,6 +3,9 @@ public class Main
 {
   public static void main(String[] args){
       Scanner input = new Scanner(System.in); 
+      
+      // The first 10 questions ask the user to enter a string
+      
       System.out.println("Enter a string: "); 
       String string1 = input.nextLine(); 
         
@@ -32,7 +35,9 @@ public class Main
       
       System.out.println("Enter a string: "); 
       String string10 = input.nextLine();
-        
+      
+      // The next 3 questions ask the user to enter a double, integer, and boolean
+      
       System.out.println("Enter a double: "); 
       double double1 = input.nextDouble(); 
         
@@ -41,7 +46,9 @@ public class Main
         
       System.out.println("Enter a boolean: "); 
       boolean boolean1 = input.nextBoolean(); 
-        
+      
+      // This is the actual mad lib portion of the code 
+      
       System.out.println("Thank you, ladies and " + string1 + ". My heart is beating at " + integer1 + " beats a minute. I didn’t prepare a " + string2 + ".");
       System.out.println("Even though I have received a lot of praise, and my newest movie " + string3 + " had a rating of " + double1 + " stars,");
       System.out.println("I never expected to win this " + string4 + " Oscar. I have so many people to " + string5 + ". First and foremost, my ");
